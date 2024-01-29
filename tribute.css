@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Times, serif;
+}
+body{
+ color: #fff;
+ background-color: #000;
+}
+.container{
+    max-width: 90vh;
+    margin:2rem auto;
+    padding: 0px 2rem;
+}
+.header{
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+}
+.header > .title{
+    margin-bottom: 1rem;
+}
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;margin: 0px auto;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    padding: 0px 0px 0px 1rem;
+
+}
+ blockquote{
+    padding: 80px;
+    margin: 20px;
+    text-align:center;
+    font-size: 3rem;
+}
+.tribute img{
+    max-width: 100%;
+}
+.bio{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    min-width: 40px;
+    text-align: center;
+}
+.bio > h2{
+   margin-bottom: 1rem;
+   font-size: 3rem;
+   line-height: 1.2;
+
+}
+.bio > p{
+    padding-right: 40px;
+     padding-left: 40px;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.bio > hr{
+    margin: 2rem;
+}
